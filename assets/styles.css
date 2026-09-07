@@ -48,12 +48,23 @@ select#langSel{background:var(--panel);color:var(--text);border:1px solid var(--
 .badge .dot{width:8px;height:8px;border-radius:50%;background:var(--brand);box-shadow:0 0 12px var(--brand)}
 .hero h1{font-size:clamp(34px,6vw,60px);line-height:1.05;margin:22px auto 14px;max-width:14ch;font-weight:850;letter-spacing:-1px}
 .hero p.sub{color:var(--muted);font-size:clamp(16px,2.2vw,20px);max-width:56ch;margin:0 auto 26px}
-.cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-.store{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:14px;
-  border:1px solid var(--line);background:var(--panel);font-weight:700;font-size:14px}
-.store small{display:block;color:var(--muted);font-size:11px;font-weight:600}
-.store svg{width:22px;height:22px}
+.cta-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;align-items:center}
+.badge-link{display:inline-flex;transition:transform .15s ease,filter .15s ease}
+.badge-link:hover{transform:translateY(-2px);filter:brightness(1.08)}
+/* Ambos badges recortados a ras → mismo alto = misma altura visual. */
+.badge-link img{width:auto;display:block;height:46px}
+.store-soon{margin-top:12px;color:var(--muted);font-size:12px;letter-spacing:.4px;
+  text-transform:uppercase;font-weight:600}
 .hero .note{margin-top:14px;color:var(--muted);font-size:13px}
+/* Desktop: hero a dos columnas (texto+botones a la izquierda, móvil a la derecha). */
+@media (min-width:861px){
+  .hero{padding:64px 0 40px}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:52px;text-align:left}
+  .hero-copy h1{margin:18px 0 14px;max-width:15ch}
+  .hero-copy .sub{margin:0 0 26px;max-width:50ch}
+  .hero-copy .cta-row{justify-content:flex-start}
+  .hero-media .mock{margin:0 auto;width:300px}
+}
 
 /* Hero mockup */
 .mock{margin:48px auto 0;width:260px;max-width:80%;position:relative}
@@ -61,14 +72,17 @@ select#langSel{background:var(--panel);color:var(--text);border:1px solid var(--
   box-shadow:var(--shadow);padding:0;overflow:hidden;aspect-ratio:9/19}
 .phone .screen{height:100%;display:flex;flex-direction:column;background:#000;position:relative}
 .phone .cam{flex:1;background:linear-gradient(180deg,#1b2a1f,#0c130e);position:relative;overflow:hidden}
+.phone .cam img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .phone .cam .box{position:absolute;border:2px solid var(--brand);border-radius:6px;
-  box-shadow:0 0 0 2px rgba(0,230,118,.2)}
+  box-shadow:0 0 0 2px rgba(0,230,118,.2),0 0 12px rgba(0,230,118,.35);z-index:2}
+.phone .cam .tag{z-index:2}
 .phone .cam .tag{position:absolute;background:var(--brand);color:#04240f;font-size:9px;font-weight:800;
   padding:1px 6px;border-radius:5px}
 .phone .bar{height:44px;background:#0b1120;display:flex;align-items:center;justify-content:space-around;border-top:1px solid var(--line)}
 .phone .bar i{width:20px;height:20px;border-radius:6px;background:rgba(255,255,255,.14)}
 .phone .bar i.on{background:var(--brand)}
-.glow{position:absolute;inset:-40px;background:radial-gradient(circle at 50% 30%,rgba(0,230,118,.25),transparent 60%);z-index:-1;filter:blur(10px)}
+.glow{position:absolute;inset:-12% -16%;z-index:-1;filter:blur(30px);
+  background:radial-gradient(50% 46% at 50% 46%,rgba(0,230,118,.40),rgba(0,230,118,.14) 46%,transparent 72%)}
 
 /* Trust strip */
 .trust{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin:44px 0 8px}
@@ -161,3 +175,16 @@ footer.site{border-top:1px solid var(--line);background:var(--bg-2);padding:48px
   section{padding:48px 0}
   .privacy-teaser{padding:30px 20px}
 }
+
+/* ===== ZONA CLARA: hero (bien contrastado). Cabecera oscura (color del footer) y de "Funciones" abajo, oscuro. ===== */
+header.site{background:var(--bg-2);border-bottom:1px solid var(--line)}
+
+.hero{color:#0e1626;background:
+  radial-gradient(58% 48% at 50% -12%,rgba(0,230,118,.10),transparent 60%),
+  linear-gradient(180deg,#f7fafc 0%,#e9eef5 100%)}
+.hero h1{color:#0b1220}
+.hero p.sub{color:#55617a}
+.hero .badge{background:rgba(0,230,118,.14);border-color:rgba(0,175,88,.38);color:#0a8f4c}
+.hero .store-soon,.hero .note{color:#6b7688}
+.hero .trust .pill{background:#fff;border-color:#e3e9f2;color:#3c4658;box-shadow:0 1px 3px rgba(16,24,40,.05)}
+.hero .trust .pill svg{color:var(--brand-2)}
