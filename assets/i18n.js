@@ -14,7 +14,7 @@ I18N.en = {
   hero_badge: `Privacy-first security`,
   hero_title: `Your home, watched over. Privately.`,
   hero_sub: `SecHome turns your phone into a smart security camera with on-device AI. Connect IP cameras, get alerts, and watch from anywhere — with no video ever uploaded to the cloud.`,
-  store_soon: `Coming soon`,
+  store_soon: `Android coming soon`,
   hero_note: `Local-first · On-device AI · Works with your existing IP cameras`,
   trust_1: `100% local`, trust_2: `On-device AI`, trust_3: `No video in the cloud`,
 
@@ -131,7 +131,7 @@ I18N.es = {
   hero_badge: `Seguridad con la privacidad primero`,
   hero_title: `Tu hogar, vigilado. En privado.`,
   hero_sub: `SecHome convierte tu móvil en una cámara de seguridad inteligente con IA en el propio dispositivo. Conecta cámaras IP, recibe avisos y míralas desde donde estés — sin subir ningún vídeo a la nube.`,
-  store_soon: `Próximamente`,
+  store_soon: `Android próximamente`,
   hero_note: `Local-first · IA en el dispositivo · Compatible con tus cámaras IP`,
   trust_1: `100% local`, trust_2: `IA en el dispositivo`, trust_3: `Ningún vídeo en la nube`,
 
@@ -248,7 +248,7 @@ I18N.fr = {
   hero_badge: `La confidentialité d'abord`,
   hero_title: `Votre maison, surveillée. En privé.`,
   hero_sub: `SecHome transforme votre téléphone en caméra de sécurité intelligente avec une IA embarquée. Connectez des caméras IP, recevez des alertes et regardez de partout — sans jamais envoyer de vidéo dans le cloud.`,
-  store_soon: `Bientôt disponible`,
+  store_soon: `Android bientôt disponible`,
   hero_note: `Local-first · IA embarquée · Compatible avec vos caméras IP`,
   trust_1: `100% local`, trust_2: `IA embarquée`, trust_3: `Aucune vidéo dans le cloud`,
 
@@ -365,7 +365,7 @@ I18N.de = {
   hero_badge: `Sicherheit mit Datenschutz zuerst`,
   hero_title: `Dein Zuhause, bewacht. Privat.`,
   hero_sub: `SecHome verwandelt dein Handy in eine smarte Sicherheitskamera mit KI direkt auf dem Gerät. Verbinde IP-Kameras, erhalte Warnungen und schau von überall zu — ohne dass je ein Video in die Cloud geladen wird.`,
-  store_soon: `Demnächst`,
+  store_soon: `Android demnächst`,
   hero_note: `Local-first · KI auf dem Gerät · Kompatibel mit deinen IP-Kameras`,
   trust_1: `100% lokal`, trust_2: `KI auf dem Gerät`, trust_3: `Kein Video in der Cloud`,
 
@@ -482,7 +482,7 @@ I18N.it = {
   hero_badge: `Sicurezza con la privacy al primo posto`,
   hero_title: `La tua casa, sorvegliata. In privato.`,
   hero_sub: `SecHome trasforma il telefono in una telecamera di sicurezza intelligente con IA a bordo. Collega telecamere IP, ricevi avvisi e guarda da ovunque — senza mai caricare video nel cloud.`,
-  store_soon: `Prossimamente`,
+  store_soon: `Android prossimamente`,
   hero_note: `Local-first · IA sul dispositivo · Compatibile con le tue telecamere IP`,
   trust_1: `100% locale`, trust_2: `IA sul dispositivo`, trust_3: `Nessun video nel cloud`,
 
@@ -599,7 +599,7 @@ I18N.pt = {
   hero_badge: `Segurança com a privacidade em primeiro`,
   hero_title: `A tua casa, vigiada. Em privado.`,
   hero_sub: `O SecHome transforma o teu telefone numa câmara de segurança inteligente com IA no próprio dispositivo. Liga câmaras IP, recebe alertas e vê de qualquer lugar — sem nunca enviar vídeo para a nuvem.`,
-  store_soon: `Brevemente`,
+  store_soon: `Android em breve`,
   hero_note: `Local-first · IA no dispositivo · Compatível com as tuas câmaras IP`,
   trust_1: `100% local`, trust_2: `IA no dispositivo`, trust_3: `Nenhum vídeo na nuvem`,
 
@@ -716,7 +716,7 @@ I18N.nl = {
   hero_badge: `Beveiliging met privacy voorop`,
   hero_title: `Je huis, bewaakt. Privé.`,
   hero_sub: `SecHome maakt van je telefoon een slimme beveiligingscamera met AI op het toestel. Verbind IP-camera's, ontvang meldingen en kijk overal — zonder ooit video naar de cloud te uploaden.`,
-  store_soon: `Binnenkort`,
+  store_soon: `Android binnenkort`,
   hero_note: `Local-first · AI op het toestel · Werkt met je IP-camera's`,
   trust_1: `100% lokaal`, trust_2: `AI op het toestel`, trust_3: `Geen video in de cloud`,
 
@@ -833,7 +833,7 @@ I18N.pl = {
   hero_badge: `Bezpieczeństwo z prywatnością na pierwszym miejscu`,
   hero_title: `Twój dom pod ochroną. Prywatnie.`,
   hero_sub: `SecHome zamienia Twój telefon w inteligentną kamerę bezpieczeństwa z AI działającą na urządzeniu. Podłącz kamery IP, otrzymuj alerty i oglądaj z dowolnego miejsca — bez wysyłania wideo do chmury.`,
-  store_soon: `Wkrótce`,
+  store_soon: `Android wkrótce`,
   hero_note: `Local-first · AI na urządzeniu · Współpracuje z Twoimi kamerami IP`,
   trust_1: `100% lokalnie`, trust_2: `AI na urządzeniu`, trust_3: `Żadnego wideo w chmurze`,
 
@@ -950,7 +950,7 @@ I18N.tr = {
   hero_badge: `Önce gizlilik odaklı güvenlik`,
   hero_title: `Eviniz gözetimde. Özel olarak.`,
   hero_sub: `SecHome, telefonunuzu cihazda çalışan YZ ile akıllı bir güvenlik kamerasına dönüştürür. IP kameraları bağlayın, uyarılar alın ve her yerden izleyin — hiçbir video buluta yüklenmeden.`,
-  store_soon: `Yakında`,
+  store_soon: `Android yakında`,
   hero_note: `Local-first · Cihazda YZ · IP kameralarınızla uyumlu`,
   trust_1: `%100 yerel`, trust_2: `Cihazda YZ`, trust_3: `Bulutta video yok`,
 
@@ -1067,7 +1067,7 @@ I18N.ru = {
   hero_badge: `Безопасность с приоритетом конфиденциальности`,
   hero_title: `Ваш дом под присмотром. Приватно.`,
   hero_sub: `SecHome превращает ваш телефон в умную камеру безопасности с ИИ прямо на устройстве. Подключайте IP-камеры, получайте оповещения и смотрите откуда угодно — без загрузки видео в облако.`,
-  store_soon: `Скоро`,
+  store_soon: `Скоро на Android`,
   hero_note: `Local-first · ИИ на устройстве · Работает с вашими IP-камерами`,
   trust_1: `100% локально`, trust_2: `ИИ на устройстве`, trust_3: `Никакого видео в облаке`,
 
